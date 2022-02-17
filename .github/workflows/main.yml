@@ -26,7 +26,7 @@ jobs:
           username: opc
           server: 129.151.240.83
           port: 22 # default is 22
-          ssh_private_key: ${{ secrets.M24_ORCL_VM_MA_GO_LIVE }}
+          ssh_private_key: ${{ secrets.SSH_PRIVATE_KEY }}
  
           
           # will put all file under this path
