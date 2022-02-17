@@ -1,0 +1,118 @@
+{
+    "key": "group_61f699e8468ea",
+    "title": "ajouterannonce",
+    "fields": [
+        {
+            "key": "field_61f69a2e01350",
+            "label": "soulez",
+            "name": "voulez-vous:",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "vendre": "Vendre",
+                "louer": "Louer",
+                "traivailler": "travailler"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_61f69a8601351",
+            "label": "Vendre",
+            "name": "vehicule_ou_service",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61f69a2e01350",
+                        "operator": "==",
+                        "value": "Vendre"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "un vehicule": "un vehicule",
+                "une pièce": "une pièce",
+                "un accessoire": "un accessoire",
+                "un outils": "un outils"
+            },
+            "default_value": "un vehicule",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_61f69b2001352",
+            "label": "Travailler",
+            "name": "travailler",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_61f69a2e01350",
+                        "operator": "==",
+                        "value": "travailler"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Vendre un service": "Vendre un service",
+                "Offrir un trvail": "Offrir un trvail"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "this is a description in front of the edit screen by me",
+    "modified": 1643555015
+}
