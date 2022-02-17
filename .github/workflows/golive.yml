@@ -1,6 +1,6 @@
 name: Go-live-to-oracle-VM-m24-maroc
 
-on:push
+on: push
 
 jobs:
   super-lint:
