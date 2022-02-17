@@ -3221,9 +3221,6 @@ button#place_order {
 
 
 /*package page mobile*/
-@media only screen and (max-width: 1200px){}
-
-
 
 #single-content-prm-user .element{
     position: absolute;
@@ -3455,3 +3452,10 @@ ul#home-skill-tabs {
     .inline {
         display: contents;
     }
+
+@media only screen and (max-width: 760px){
+    ul#home-skill-tabs {
+            -webkit-column-count: 1;
+            -moz-column-count: 1;
+            column-count: 1;
+}}
