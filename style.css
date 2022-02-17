@@ -2351,24 +2351,12 @@ div#pop-up-desc-mob, div#pop-up-cat-mob {
     height: 45px;
 }}
 
-
-
-
-
-
-
-
-
-
-
 .review-gallery-image {
     background: #fff;
     border-radius: 20px;
     box-shadow: 0 0px 8px 0 #d4d4d4!important;
     background-position: 50%;
 }
-
-
 
 @media only screen and (max-width: 1200px){
     .cts-term-hierarchy label .go-back-btn i {
