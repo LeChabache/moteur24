@@ -7,9 +7,6 @@ jobs:
     name: Lint code base
     runs-on: ubuntu-latest
     steps:
-      - name: Chechout code
-        uses: actions/chechout@v2
-
       - name: Run Super-Linter
         uses: github/super-linter@v3
         env:
