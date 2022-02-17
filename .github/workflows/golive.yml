@@ -1,0 +1,5 @@
+name: Go-Llive-to-oracle-VM-m24-maroc
+
+on:push
+
+jobs:
