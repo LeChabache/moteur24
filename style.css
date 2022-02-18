@@ -3439,15 +3439,12 @@ ul#home-skill-tabs {
     
     .clients-feed-carousel .logo-holder img {
         filter: grayscale(1);
-        padding: 16px;
+        padding: 0;
+        width: 100%;
     }
     
     .clients-feed-carousel .logo-holder:hover img {
         filter: none;
-    }
-    .home-cat-carsl {
-        opacity: 0;
-        display:none;
     }
     .inline {
         display: contents;
