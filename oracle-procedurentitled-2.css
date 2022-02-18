@@ -1,0 +1,91 @@
+/*Install Bitnami WordPress Stack on Oracle VM ***********************/
+
+/* First, get root access using this command.*/
+sudo -i
+
+/* We have to allow added ports in the system firewall as well. Use this to allow an HTTP port */
+
+sudo firewall-cmd --permanent --zone=public --add-port=80/tcp
+
+sudo firewall-cmd --permanent --zone=public --add-port=443/tcp
+
+
+/* Then reload the firewall to make changes happen. */
+
+sudo firewall-cmd --reload
+
+
+/* After that update the list of packages of CentOS 7 using this command. */
+
+sudo yum update
+
+
+/* check the memory using this command to make sure, it has a swap file. Because WordPress required 1 GB memory. You don’t have to worry; CentOS 7 already include the swap file. */
+
+free -m
+
+/* Bitnami dependencies installation */
+    /* Ubunto*/
+    sudo apt-get update
+    sudo apt-get install libncurses5
+
+    /*CentOS/Fedora/RHEL*/
+    sudo yum install ncurses-compat-libs
+
+/* Then install Perl. Now the server has been prepared to run the WordPress setup. */
+    /* Ubunto*/
+    sudo apt-get install perl
+    /*CentOS/Fedora/RHEL*/
+    sudo yum install perl perl-Data-Dumper
+
+/* get the latest version of Bitnami at the official site */
+
+wget https://bitnami.com/redirect/to/1448613/bitnami-wordpress-5.7.1-0-linux-x64-installer.run
+
+/* Provide execute permission on the installer package using this command. */
+
+sudo chmod 755 bitnami-wordpress-5.7.1-0-linux-x64-installer.run
+
+
+/* then execute the installer.*/
+
+./bitnami-wordpress-5.7.1-0-linux-x64-installer.run
+
+
+
+/* Bonus ************************************************************************************/
+
+
+/* Remove Bitnami Welcome page and Banner */
+
+/opt/wordpress-5.9-0/apps/wordpress/bnconfig --appurl /
+
+/* removed successfully but you may see a Bitnami banner at the corner */
+
+sudo /opt/wordpress-5.9-0/apps/wordpress/bnconfig --disable_banner 1
+
+/* restart the apache server */
+
+sudo /opt/wordpress-5.7.1-0/ctlscript.sh restart apache
+
+
+
+
+
+
+
+
+
+
+/* Adding Domain for the New Site************************************************************/
+
+/*First add “A” record*/
+@ public IP
+
+/* Last CNAME record*/
+www @
+
+
+/* Generate SSL *****************************************************************************/
+sudo /opt/wordpress-5.7.1-0/bncert-tool
+
