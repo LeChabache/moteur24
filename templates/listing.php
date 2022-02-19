@@ -473,8 +473,8 @@ if ( ! ( $author instanceof \MyListing\Src\User && $author->exists() ) ) {
     display: block;
 }
 #vendre-en-ligne .element {
-    background: white;
-    border: 1px solid #f48708;
+    background: #8bc34a;
+    border: 1px solid #8bc34a;
     box-shadow: 0 2px 4px rgb(45 47 59 / 12%);
     border-radius: 8px;
 }
