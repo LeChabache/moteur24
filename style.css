@@ -2504,7 +2504,7 @@ change cate
 
 i.fa.fa-car:before {
     content: ""!important;
-    background-image: url(http://192.168.1.4:81/wordpress/wp-content/uploads/2022/01/car-icon-moteur24-maroc.svg);
+    background-image: url(https://moteur24.ma/wp-content/uploads/2022/02/car-icon-moteur24-maroc.svg);
     width: 47px;
     height: 21px;
     display: inline-block;
@@ -2520,7 +2520,7 @@ i.fa.fa-car:before {
 
 i.fa.fa-bus:before {
     content: ""!important;
-    background-image: url(http://192.168.1.4:81/wordpress/wp-content/uploads/2022/01/camion-icon-moteur24-maroc.svg);
+    background-image: url(https://moteur24.ma/wp-content/uploads/2022/02/camion-icon-moteur24-maroc.svg);
     width: 42px;
     height: 24px;
     display: inline-block;
@@ -2537,7 +2537,7 @@ i.fa.fa-bus:before {
 
 i.fa.fa-motorcycle:before {
     content: ""!important;
-    background-image: url(http://192.168.1.4:81/wordpress/wp-content/uploads/2022/01/motos-icon-moteur24-maroc.svg);
+    background-image: url(https://moteur24.ma/wp-content/uploads/2022/02/motos-icon-moteur24-maroc.svg);
     width: 42px;
     height: 20px;
     display: inline-block;
@@ -2556,7 +2556,7 @@ i.fa.fa-motorcycle:before {
 
 i.mi.directions_boat:before {
     content: ""!important;
-    background-image: url(http://192.168.1.4:81/wordpress/wp-content/uploads/2022/01/excavator.svg);
+    background-image: url(https://moteur24.ma/wp-content/uploads/2022/02/excavator-maroc.svg);
     width: 45px;
     height: 20px;
     display: inline-block;
