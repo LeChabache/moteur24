@@ -238,7 +238,7 @@ if ($data['scroll_border_color']) {
 											</div> 
 											<div class="type-vehicules item">
 											
-												<a href="/wordpress/add-a-listing/?listing_type=vehicules">
+												<a href="/wordpress/add-a-listing/?listing_type=automobiles">
 													
 													<div class="type-info">
 														<i style="width:60px;" class="fa fa-car"></i> 
