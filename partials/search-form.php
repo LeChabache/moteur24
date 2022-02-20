@@ -23,7 +23,8 @@ li[role="presentation"]:nth-child(n+6).active {
 }
 
 /* Hide jumper in tab 2,3,4 */
-div#tab19190 .jumper,div#tab19189 .jumper,div#tab19191 .jumper,div#tab20790 .jumper{
+div#tab19190 .jumper,div#tab19189 .jumper,div#tab19191 .jumper,div#tab20790 .jumper,
+div#tab21692 .jumper, div#tab21693 .jumper, div#tab21694 .jumper{
 	display:none;
 }
 
@@ -104,7 +105,8 @@ div#vehicules-pro{
 	opacity:1;
 }
 
-div#tab20747 div#vehicules-pro{
+div#tab20747 div#vehicules-pro,
+div#tab21691 div#vehicules-pro{
 	display: block;
 }
 div#tab20747 .search {

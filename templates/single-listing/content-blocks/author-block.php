@@ -50,7 +50,7 @@ if ( ! empty( $social_links ) ) {
 							<img src="<?php echo esc_url( $author->get_avatar() ) ?>">
 						</div>
 					</div>
-					<div class="auth-det-sngl" style="margin-top: 20px;margin-left: 4px;">
+					<div class="auth-det-sngl" style="margin-top: 11px;margin-left: 4px;">
 						<div class="host-name">
 							<?php echo esc_html( $author->get_name() ) ?>
 						</div>
@@ -74,7 +74,7 @@ if ( ! empty( $social_links ) ) {
 						<?php if ( $author instanceof \WP_User ):
 							$roles = array_filter( array_map( [ c27(), 'get_role_name' ], (array) $author->roles ) );
 							?>
-							<div class="auth_details">
+							<div class="auth_details" style="margin-top: -4px;">
 								<div class="auth_role">
 									<?php if ( ! empty( $roles ) ): ?>
 										<span class="auth_role"><?php echo join( ', ', $roles ) ?></span>
