@@ -3478,3 +3478,10 @@ span.auth_role {
     color: #919191;
 }
 
+.form-group .job-manager-uploaded-files progress {
+    border-radius: 8px;
+    margin: 2px;
+}
+#job_gallery-field-type-file .review-gallery-add .content {
+    padding-bottom: 75%!important;
+}
