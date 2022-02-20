@@ -1759,11 +1759,6 @@ form .field-type-radio .md-checkbox:first-child label {
 /*add listings ends here*/
 
 
-.lf-head-2 .lf-head-btn:nth-child(3) {
-    margin-left: -15px;
-    margin-right: 5px!important;
-}
-
 @media only screen and (max-width: 768px){
 .quick-listing-actions>ul>li>a>i {
     font-size: 17px;
@@ -1833,7 +1828,7 @@ span#carburant-preview {
 }
 span#carburant-preview svg {
     max-width: 22px;
-    margin-right: 2px;
+    margin-right: 5px;
 }
 span#rating-cars-preview-card {
     margin-bottom: 7px;
@@ -3484,4 +3479,27 @@ span.auth_role {
 }
 #job_gallery-field-type-file .review-gallery-add .content {
     padding-bottom: 75%!important;
+}
+@media only screen and (min-width: 960px){
+.woocommerce .container.section-body {
+    width: 100vw!important;
+    padding: 0;
+}
+.woocommerce .add-listing-nav {
+    width: 100%;
+}
+div#addlisting-tab1 {
+    min-width: 500px;
+}}
+
+.lf-head-2 {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    z-index: 4;
+    padding: 0 8px;
+}
+.lf-head-btn {
+    margin: 0 2px;
+    padding: 0;
 }
