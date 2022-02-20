@@ -202,7 +202,7 @@ if ($data['scroll_border_color']) {
 										</a>
 									</li>
 									<li class="add-list-lvl-1">
-										<a href="/wordpress/add-a-listing/?listing_type=location-covoiturage">
+										<a href="/wordpress/add-a-listing/?listing_type=location">
 											<button class="buttons button-2" style="width:100%;margin:5px 0;">Louer</button>
 										</a>
 									</li>
@@ -263,7 +263,7 @@ if ($data['scroll_border_color']) {
 												</a>
 											</div> 
 											<div class="type-pieces-auto item">
-												<a href="/wordpress/add-a-listing/?listing_type=pieces-auto">
+												<a href="/wordpress/add-a-listing/?listing_type=pieces">
 													<div class="type-info">
 														<i style="width:60px;" class="icon-spray-bottle"></i> 
 														<h4>Une Pièce ou Accessoire</h4>
