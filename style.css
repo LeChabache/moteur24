@@ -773,9 +773,9 @@ span.host-namex {
     display: -webkit-box;
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
-    font-size: 19px;
+    font-size: 17px;
     color: var( --e-global-color-22f6831 );
-    margin-bottom: 5px;
+    margin-bottom: 8px;
     margin-top: 19px;
 }
  h4#pop-up-ad-title{
