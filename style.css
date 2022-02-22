@@ -3539,3 +3539,52 @@ div#addlisting-tab1 {
 .hoverable-section:hover a.elementor-button-link.elementor-button.elementor-size-sm.elementor-animation-grow {
     color: white!important;
 }
+
+
+
+
+
+/*Cards hover to 35a01*/
+.lf-item-container.listing-preview:hover .event-host,
+.lf-item-container.listing-preview:active .c27-footer-section {
+    background:#fff0!important;
+    background-image: linear-gradient(90deg, #F16720 0%, #F58907 100%)!important;
+}
+
+.lf-item-container.listing-preview:hover .lf-item-info-cardx h3.listing-preview-title,
+.lf-item-container.listing-preview:active .lf-item-info-cardx h3.listing-preview-title {
+    color: #ffffff;
+}
+.lf-item-container.listing-preview:hover span.host-namex,
+.lf-item-container.listing-preview:active span.host-namex {
+    color: white;
+}
+
+.lf-item-container.listing-preview:hover .five .value,
+.lf-item-container.listing-preview:active .five .value {
+    color: white!important;
+}
+
+.lf-item-container.listing-preview:hover .five p,
+.lf-item-container.listing-preview:active .five p {
+    color: white!important;
+}
+
+.lf-item-container.listing-preview:hover .ld-info ul li a,
+.lf-item-container.listing-preview:active .ld-info ul li a{
+    background: #f16720!important;
+}
+.lf-item-container.listing-preview:hover .ld-info ul li a:hover,
+.lf-item-container.listing-preview:active .ld-info ul li a:hover{
+    background: #f2f2f3!important;
+}
+.lf-item-container.listing-preview:hover .ld-info ul li i,
+.lf-item-container.listing-preview:active .ld-info ul li i{
+    color: #ffffff!important;
+}
+
+.lf-item-container.listing-preview:hover .ld-info ul li a:hover i,
+.lf-item-container.listing-preview:active .ld-info ul li a:hover i {
+    color: #f35a01;
+    font-size: 21px;
+}
