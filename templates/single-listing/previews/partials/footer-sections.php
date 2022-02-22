@@ -177,13 +177,13 @@ foreach ( (array) $options['footer']['sections'] as $section ) {
                             </span>
                         </a>
                         <a href="<?php echo esc_url( $listing->get_link() ) ?>" style="color: #616161!important;">
-                            <div style="max-width: 70%;">
+                            <div style="max-width: 70%;position: relative;top: -2px;font-size: 15px!important;">
                                 <span style="color:#666974;">   
                                     <?php $stats = mylisting()->stats()->get_listing_stats( $listing->get_id() );?>
                                     <?php if ( mylisting()->get( 'stats.show_views' ) !== false ): ?>
 
                                         <?php if ( $views = $stats->get('visits.views') ): ?>
-                                            <p style="display:inline-block;color:#666974;">
+                                            <p style="display:inline-block;color:#666974;font-size: 15px;">
                                                 
                                                 <span class="vues-counter"><?php echo number_format_i18n( $views['lastmonth'] ) ?></span>
                                                 <?php _ex( 'Vues', 'User Dashboard', 'my-listing' ) ?>

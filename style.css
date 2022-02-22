@@ -761,16 +761,23 @@ h3.case27-primary-text.listing-preview-title {
 .event-host .avatar {
     width: 36px;
     height: 36px;
-    margin-top: 20px;
-    margin-left:12px;
+    margin-top: 17px;
+    margin-left: 14px;
+}
+span.host-namex {
+    font-size: 15px;
 }
 .lf-item-info-cardx h3.listing-preview-title {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-    -webkit-line-clamp: 1; /* number of lines to show */
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
- }
+    font-size: 19px;
+    color: var( --e-global-color-22f6831 );
+    margin-bottom: 5px;
+    margin-top: 19px;
+}
  h4#pop-up-ad-title{
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1217,10 +1224,12 @@ button.pswp__button:hover::before {
     border-top: none;
 }
 .lf-item-container {
-    box-shadow: 0 2px 4px #2d2f3b1f!important;
+    box-shadow: 0 0 14px -6px #0000001f!important;
     margin-bottom:30px;
 }
-
+.lf-item-container.listing-preview {
+    border-radius: 12px!important;
+}
 /*List items fadein effect***************************************************/
  .lf-item {
     animation: fadeIn .5s ease, border .5s ease;
