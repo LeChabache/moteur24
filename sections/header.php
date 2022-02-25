@@ -18,7 +18,7 @@ $data = c27()->merge_options([
     'is_edit_mode'            => false,
 ], $data);
 
-$header_classes = ['c27-main-header', 'header', "header-style-{$data['style']}", "header-{$data['skin']}-skin", "header-scroll-{$data['scroll_skin']}-skin", 'hide-until-load', 'header-scroll-hide'];
+$header_classes = ['c27-main-header', 'header', "header-style-{$data['style']}", "header-{$data['skin']}-skin", "header-scroll-{$data['scroll_skin']}-skin", 'hide-until-loadx', 'header-scroll-hide'];
 
 if ( $data['fixed'] ) {
 	$header_classes[] = 'header-fixed';

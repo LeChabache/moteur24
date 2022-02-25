@@ -3404,7 +3404,7 @@ li.hoveractive:active{
 
 @media only screen and (min-width: 1000px){
     .home-skill-tabs div.elementor-tab-content {
-        padding-top: 0!important;
+        padding-top: 12px!important;
     }
 }
 
