@@ -119,7 +119,7 @@ if ( ! ( $author instanceof \MyListing\Src\User && $author->exists() ) ) {
                             
                             <?php if ( $listing->is_verified() ): ?>
                                 <div class="lf-head-btn ad-badge bdg-header-trending ad-badge-pop" data-toggle="tooltip" data-placement="right" data-original-title="3">
-                                    <span style="margin-top: -1px;margin-left: -7px;background: linear-gradient(90deg, #66d7f5 0%, #39bcef 100%);width: fit-content;height: 29px;color: #fff;font-weight: 600;border-radius: 5px;padding: 7px;font-size: 12px;padding-right: 9px;">
+                                    <span style="margin-top: -1px;margin-left: -7px;background: linear-gradient(90deg, #66d7f5 0%, #39bcef 100%);width: fit-content;height: 29px;color: #fff;font-weight: 600;border-radius: 5px;padding: 7px;font-size: 12px;padding-right: 9px; margin-right:10px;">
                                     <img style="margin-top:-1px;margin-right:3px;width: 19px;top: 0px;" class="verified-listing" data-toggle="tooltip" src="<?php echo esc_url( c27()->image('tick.svg') ) ?>">
                                     Annonce vérifié</span>
                                 </div>
