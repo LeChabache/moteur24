@@ -3526,17 +3526,17 @@ div#addlisting-tab1 {
     border-radius: 51px;
 }
 
-.hoverable-section:hover .elementor-widget-wrap.elementor-element-populated{
+.hoverable-section:active .elementor-widget-wrap.elementor-element-populated{
     background-image: linear-gradient(90deg, #F16720 0%, #F58907 100%)!important;
 }
 
-.hoverable-section:hover span.elementor-heading-title.elementor-size-default {
+.hoverable-section:active span.elementor-heading-title.elementor-size-default {
     color: white!important;
 }
-.hoverable-section:hover h2.elementor-heading-title.elementor-size-default {
+.hoverable-section:active h2.elementor-heading-title.elementor-size-default {
     color: white!important;
 }
-.hoverable-section:hover a.elementor-button-link.elementor-button.elementor-size-sm.elementor-animation-grow {
+.hoverable-section:active a.elementor-button-link.elementor-button.elementor-size-sm.elementor-animation-grow {
     color: white!important;
 }
 
