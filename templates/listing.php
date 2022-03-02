@@ -518,7 +518,7 @@ if ( ! ( $author instanceof \MyListing\Src\User && $author->exists() ) ) {
     color: #242429!important;
 }
 
-.single .logo {
+.single .logox {
     display: none!important;
 }
 

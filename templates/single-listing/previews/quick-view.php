@@ -236,13 +236,7 @@ h1#popup-listing-title{
 
 	<div class="pop-up-side">
 	<div>
-    <span id="nbr-of-media-pop"></span> <i class="fa fa-image"></i>
-	<script>
-	
-		var x = document.querySelectorAll('.listing-quick-popup .owl-item.cloned').length - 1;
-document.getElementById('nbr-of-media-pop').innerHTML = (x);
-	
-	</script>
+    
 
     </div>
 		<div id="pic-nbr"><div id="pic-nbr-results">33</div><i class="mi photo_camera"></i></div>
