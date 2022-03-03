@@ -24,7 +24,7 @@ if ( ! ( $author instanceof \MyListing\Src\User && $author->exists() ) ) {
 }
 
 ?>
-<div class="single-job-listing hide-until-load <?php echo ! $listing_logo ? 'listing-no-logo' : '' ?>" id="c27-single-listing">
+<div class="single-job-listing <?php echo ! $listing_logo ? 'listing-no-logo' : '' ?>" id="c27-single-listing">
     <input type="hidden" id="case27-post-id" value="<?php echo esc_attr( get_the_ID() ) ?>">
     <input type="hidden" id="case27-author-id" value="<?php echo esc_attr( get_the_author_meta('ID') ) ?>">
 

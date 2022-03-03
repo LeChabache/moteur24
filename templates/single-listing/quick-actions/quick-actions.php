@@ -19,7 +19,7 @@ if ( empty( $layout['quick_actions'] ) ) {
 }
 ?>
 
-<div class="container qla-container">
+<div class="container qla-container hide-until-load">
 	<div class="quick-listing-actions">
 		<ul class="cts-carousel">
 			<?php foreach ( $layout['quick_actions'] as $action ):
