@@ -146,7 +146,7 @@ div#tab20790 .search {
     display: none;
 }
 </style>
-<div class="mylisting-basic-form text-center" :class="tabMode==='dark'?'featured-light':tabMode"
+<div class="mylisting-basic-form text-center hide-until-load" :class="tabMode==='dark'?'featured-light':tabMode"
 	data-listing-types="<?php echo esc_attr( wp_json_encode( $types_config ) ) ?>"
 	data-config="<?php echo esc_attr( wp_json_encode( $config ) ) ?>"
 	v-cloak>
