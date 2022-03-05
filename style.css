@@ -3551,6 +3551,10 @@ div#addlisting-tab1 {
     background-image: linear-gradient(90deg, #F16720 0%, #F58907 100%)!important;
     transition: all 2s linear 1s;
 }
+.lf-item-container.listing-preview:hover .event-host {
+    outline: 2px solid #f58806;
+    transition: all 2s linear 1s;
+}
 
 .lf-item-container.listing-preview:hoverx .lf-item-info-cardx h3.listing-preview-title,
 .lf-item-container.listing-preview:active .lf-item-info-cardx h3.listing-preview-title {
