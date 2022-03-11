@@ -202,12 +202,12 @@ if ($data['scroll_border_color']) {
 										</a>
 									</li>
 									<li class="add-list-lvl-1">
-										<a href="/wordpress/add-a-listing/?listing_type=location">
+										<a href="https://moteur24.ma/ajouter-une-annonce-moteur-24-maroc/?listing_type=location">
 											<button class="buttons button-2" style="width:100%;margin:5px 0;">Louer</button>
 										</a>
 									</li>
 									<li class="add-list-lvl-1">
-										<a href="/wordpress/add-a-listing/?listing_type=services">
+										<a href="https://moteur24.ma/ajouter-une-annonce-moteur-24-maroc/?listing_type=services">
 											<button class="buttons button-2" style="width:100%;margin:5px 0;">Travailler</button>
 										</a>
 									</li>
@@ -238,7 +238,7 @@ if ($data['scroll_border_color']) {
 											</div> 
 											<div class="type-vehicules item">
 											
-												<a href="/wordpress/add-a-listing/?listing_type=automobiles">
+												<a href="https://moteur24.ma/ajouter-une-annonce-moteur-24-maroc/?listing_type=automobiles">
 													
 													<div class="type-info">
 														<i style="width:60px;" class="fa fa-car"></i> 
@@ -247,7 +247,7 @@ if ($data['scroll_border_color']) {
 												</a>
 											</div> 
 											<div class="type-motos item">
-												<a href="/wordpress/add-a-listing/?listing_type=motos">
+												<a href="https://moteur24.ma/ajouter-une-annonce-moteur-24-maroc/?listing_type=motos">
 													<div class="type-info">
 														<i style="width:60px;" class="fa fa-motorcycle"></i> 
 														<h4>Une Motos</h4>
@@ -255,7 +255,7 @@ if ($data['scroll_border_color']) {
 												</a>
 											</div>
 											<div class="type-vehicules-professionnels item">
-												<a href="/wordpress/add-a-listing/?listing_type=vehicules-professionnels">
+												<a href="https://moteur24.ma/ajouter-une-annonce-moteur-24-maroc/?listing_type=vehicules-professionnels">
 													<div class="type-info">
 														<i style="width:60px;" class="fa fa-bus"></i> 
 														<h4>Un Véhicule Pro.</h4>
@@ -263,7 +263,7 @@ if ($data['scroll_border_color']) {
 												</a>
 											</div> 
 											<div class="type-pieces-auto item">
-												<a href="/wordpress/add-a-listing/?listing_type=pieces">
+												<a href="https://moteur24.ma/ajouter-une-annonce-moteur-24-maroc/?listing_type=vehicules-professionnels">
 													<div class="type-info">
 														<i style="width:60px;" class="icon-spray-bottle"></i> 
 														<h4>Une Pièce ou Accessoire</h4>
@@ -271,7 +271,7 @@ if ($data['scroll_border_color']) {
 												</a>
 											</div> 
 											<div class="type-services item">
-												<a href="/wordpress/add-a-listing/?listing_type=services">
+												<a href="https://moteur24.ma/ajouter-une-annonce-moteur-24-maroc/?listing_type=services">
 													<div class="type-info">
 														<i style="width:60px;" class="mi warning"></i> 
 														<h4>Un Service</h4>
