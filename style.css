@@ -3539,7 +3539,9 @@ div#addlisting-tab1 {
 .hoverable-section:hover a.elementor-button-link.elementor-button.elementor-size-sm.elementor-animation-grow {
     color: white!important;
 }
-
+.hoverable-section:hover .elementor-button span {
+    color: white!important;
+}
 
 
 
