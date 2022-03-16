@@ -2863,6 +2863,10 @@ x.cts-carousel li.active {
     color: #f35a01;
 }
 }
+ul.xsdf li>a {
+    background: hsl(240deg 8% 92%);
+    margin-right: 15px;
+}
 ul.xsdf li.active a {
     background: #242429!important;
 }
@@ -3594,4 +3598,20 @@ div#addlisting-tab1 {
 .lf-item-container.listing-preview:active .ld-info ul li a:hover i {
     color: #f35a01;
     font-size: 21px;
+}
+
+
+
+
+.md-group label {
+    font-size: 16px!important;
+}
+.radius .amount {
+    font-size: 15px!important;
+}
+.checkboxes-filter>label, .explore-filter.datepicker-form-group>label, .range-filter>label {
+    font-size: 15px!important;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+    font-size: 16px;
 }
