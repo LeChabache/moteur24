@@ -3621,3 +3621,10 @@ div#addlisting-tab1 {
     font-size: 16px;
     font-weight: 500!important;
 }
+.header-top {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    max-width: 1400px;
+}
