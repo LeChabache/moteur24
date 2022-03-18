@@ -2864,8 +2864,7 @@ x.cts-carousel li.active {
 }
 }
 ul.xsdf li>a {
-    background: hsl(240deg 8% 92%);
-    margin-right: 15px;
+    background: #f1f1f3;
 }
 ul.xsdf li.active a {
     background: #242429!important;
@@ -3626,5 +3625,5 @@ div#addlisting-tab1 {
     margin-right: auto;
     margin-left: auto;
     position: relative;
-    max-width: 1400px;
+    max-width: 1200px;
 }
