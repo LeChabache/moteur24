@@ -263,18 +263,10 @@ if ($data['scroll_border_color']) {
 												</a>
 											</div> 
 											<div class="type-pieces-auto item">
-												<a href="https://moteur24.ma/ajouter-une-annonce-moteur-24-maroc/?listing_type=vehicules-professionnels">
+												<a href="https://moteur24.ma/ajouter-une-annonce-moteur-24-maroc/?listing_type=pieces">
 													<div class="type-info">
 														<i style="width:60px;" class="icon-spray-bottle"></i> 
 														<h4>Une Pièce ou Accessoire</h4>
-													</div>
-												</a>
-											</div> 
-											<div class="type-services item">
-												<a href="https://moteur24.ma/ajouter-une-annonce-moteur-24-maroc/?listing_type=services">
-													<div class="type-info">
-														<i style="width:60px;" class="mi warning"></i> 
-														<h4>Un Service</h4>
 													</div>
 												</a>
 											</div> 
