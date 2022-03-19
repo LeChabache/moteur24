@@ -40,7 +40,7 @@ if ( $account_required ) {
 						<?php _e( 'Se connecter', 'my-listing' ) ?>
 					</a>
 					<?php if ( get_option( 'woocommerce_enable_myaccount_registration' ) === 'yes' ): ?>
-						<span><?php _e( 'or', 'my-listing' ) ?></span>
+						<span>ou</span>
 						<a href="<?php echo esc_url( \MyListing\get_register_url() ) ?>" class="buttons button-5">
 							<i class="mi person"></i>
 							<?php _e( "S'enregistrer", 'my-listing' ) ?>
