@@ -3644,11 +3644,11 @@ button.preview-btn.button.buttons.button-2.preview {
 /*Advanced search page header tabs mobile*/
 @media only screen and (max-width: 1000px){
 .mobile-tab-filters .explore-head{
-    display:none;
+    display:none!important;
 }
 
 .mobile-tab-results .explore-head{
-    display:block;
+    display:block!important;
 }
 
 .explore-head {
@@ -3672,7 +3672,7 @@ button.preview-btn.button.buttons.button-2.preview {
 .featured-search.wide .form-group {
     height: auto!important;
     min-height:60px!important;
-    animation: fadeIn .5s ease,height .5s ease;
+    animation: all .5s ease;
 }
 
 .cts-term-hierarchy.form-group.md-group.tpl-alternate.cts-term-filled label {
