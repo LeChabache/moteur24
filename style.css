@@ -3628,3 +3628,7 @@ div#addlisting-tab1 {
     position: relative;
     max-width: 1200px;
 }
+
+button.preview-btn.button.buttons.button-2.preview {
+    background: #bfbfbf;
+}

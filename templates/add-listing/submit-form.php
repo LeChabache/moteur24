@@ -112,13 +112,13 @@ $can_post = is_user_logged_in() || ! mylisting_get_setting( 'submission_requires
 							</div>
 
 							<div class="listing-form-submit-btn">
-								<button type="submit" name="submit_job" class="preview-btn button buttons button-2" value="submit">
+								<button type="submit" name="submit_job" class="preview-btn button buttons button-2 preview" value="submit">
 									<?php echo esc_attr( $submit_button_text ) ?>
 								</button>
 
 								<?php if ( $form === 'submit-listing' ): ?>
 									<button type="submit" name="submit_job" class="preview-btn button buttons button-2" id="skip-preview-btn button buttons button-3" value="submit--no-preview">
-										<?php echo esc_attr( _x( "Ignorer l'aperçu et soumettre", 'Add listing form', 'my-listing' ) ) ?>
+										<?php echo esc_attr( _x( "Ignorer l'aperçu et soumettre [27-icon icon=\"fa fa-arrow-right\"]", 'Add listing form', 'my-listing' ) ) ?>
 									</button>
 								<?php endif ?>
 							</div>
