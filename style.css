@@ -3643,11 +3643,11 @@ button.preview-btn.button.buttons.button-2.preview {
 
 /*Advanced search page header tabs mobile*/
 @media only screen and (max-width: 1000px){
-.mobile-tab-filters .explore-head .explore-types{
+.mobile-tab-filters .explore-head{
     display:none;
 }
 
-.mobile-tab-results .explore-head .explore-types{
+.mobile-tab-results .explore-head{
     display:block;
 }
 
