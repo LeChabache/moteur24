@@ -327,7 +327,7 @@ div#tab20790 .search {
 							<div class="form-group">
 								<button class="buttons button-2 search" @click.prevent="submit">
 									<i class="material-icons">search</i>
-									<?php _e( 'Search', 'my-listing' ) ?>
+									<?php _e( 'Afficher', 'my-listing' ) ?>
 								</button>
 							</div>
 							
