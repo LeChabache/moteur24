@@ -3654,3 +3654,27 @@ button.preview-btn.button.buttons.button-2.preview {
 .explore-head {
     background: #ffffff;
 }}
+
+.featured-search.wide{
+
+}
+
+
+/*Test home basic search heararchy select*/
+.featured-search.wide .cts-term-hierarchy.tpl-alternate .select-wrapper:not(:last-child) {
+    display: block!important;
+    margin-bottom: 5px;
+}
+.featured-search.wide .cts-term-hierarchy.tpl-alternate.cts-term-filled .select-wrapper {
+    background: hsl(240deg 5% 95%)!important;
+    border-radius: 8px!important;
+}
+.featured-search.wide .form-group {
+    height: auto!important;
+    transition: height;
+    animation: fadeIn .5s ease,height .5s ease;
+}
+
+.cts-term-hierarchy.form-group.md-group.tpl-alternate.cts-term-filled label {
+    display: none;
+}
