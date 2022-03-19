@@ -3678,3 +3678,6 @@ button.preview-btn.button.buttons.button-2.preview {
 .cts-term-hierarchy.form-group.md-group.tpl-alternate.cts-term-filled label {
     display: none;
 }
+.featured-search.wide .form-group .select-wrapper.term-select{
+    position: relative!important;
+}
