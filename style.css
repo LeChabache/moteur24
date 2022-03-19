@@ -3632,3 +3632,6 @@ div#addlisting-tab1 {
 button.preview-btn.button.buttons.button-2.preview {
     background: #bfbfbf!important;
 }
+.addlisting-header-cta a {
+    padding-top: 11px;
+}
