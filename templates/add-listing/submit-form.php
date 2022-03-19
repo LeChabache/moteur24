@@ -118,7 +118,7 @@ $can_post = is_user_logged_in() || ! mylisting_get_setting( 'submission_requires
 
 								<?php if ( $form === 'submit-listing' ): ?>
 									<button type="submit" name="submit_job" class="preview-btn button buttons button-2" id="skip-preview-btn button buttons button-3" value="submit--no-preview">
-										<?php echo esc_attr( _x( 'Soumettre', 'Add listing form', 'my-listing' ) ) ?>  <i class="fa fa-arrow-right">
+										<?php echo esc_attr( _x( 'Soumettre', 'Add listing form', 'my-listing' ) ) ?>
 									</button>
 								<?php endif ?>
 							</div>
