@@ -170,15 +170,12 @@ li#form-section-general-nav {
 }
 /**Test */
 #submit-job-form .round-icon .title-style-1 i {
-    width: 80px;
-    height: 42px;
     border-radius: 8px;
     background: #242429;
-    padding: 2px;
     text-align: center;
-    margin-top: -4px;
-	color:#f35a01;
-	margin-right:-10px;
+    color: #f35a01;
+    margin-left: 10px;
+    margin-right: -5px;
 }
 #submit-job-form .round-icon .title-style-1 i:before{
 	filter:none!important;
