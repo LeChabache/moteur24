@@ -3671,7 +3671,7 @@ button.preview-btn.button.buttons.button-2.preview {
 }
 .featured-search.wide .form-group {
     height: auto!important;
-    transition: height;
+    min-height:60px!important;
     animation: fadeIn .5s ease,height .5s ease;
 }
 
