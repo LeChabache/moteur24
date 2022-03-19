@@ -3196,6 +3196,7 @@ label.review-gallery-add:active {
 }
 button.preview-btn.button.buttons.button-2 {
     background: #8bc34a;
+    margin-top: 9px;
 }
 button#place_order {
     background: #8bc34a;
