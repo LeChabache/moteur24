@@ -3635,3 +3635,22 @@ button.preview-btn.button.buttons.button-2.preview {
 .addlisting-header-cta a {
     padding-top: 11px;
 }
+
+
+
+
+
+
+/*Advanced search page header tabs mobile*/
+@media only screen and (max-width: 1000px){
+.mobile-tab-filters .explore-head .explore-types{
+    display:none;
+}
+
+.mobile-tab-results .explore-head .explore-types{
+    display:block;
+}
+
+.explore-head {
+    background: #ffffff;
+}}
