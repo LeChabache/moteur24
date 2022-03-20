@@ -3688,3 +3688,17 @@ button.preview-btn.button.buttons.button-2.preview {
 .featured-search.wide #tab21690.active .form-group .select-wrapper.term-select{
     position: relative!important;
 }
+
+
+/*header text size*/
+.i-nav ul li {
+    font-size: 15px;
+    opacity: .7;
+    -webkit-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+    line-height: 24px;
+    font-weight: 500;
+}
+.i-nav ul li:hover {
+    opacity: 1;
+}
