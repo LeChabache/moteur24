@@ -3661,23 +3661,25 @@ button.preview-btn.button.buttons.button-2.preview {
 
 
 /*Test home basic search heararchy select*/
-.featured-search.wide .cts-term-hierarchy.tpl-alternate .select-wrapper:not(:last-child) {
+
+/* only when automobile hireararchy*/
+.featured-search.wide #tab21624.active .cts-term-hierarchy.tpl-alternate .select-wrapper:not(:last-child) {
     display: block!important;
     margin-bottom: 5px;
 }
-.featured-search.wide .cts-term-hierarchy.tpl-alternate.cts-term-filled .select-wrapper {
+.featured-search.wide #tab21624.active .cts-term-hierarchy.tpl-alternate.cts-term-filled .select-wrapper {
     background: hsl(240deg 5% 95%)!important;
     border-radius: 8px!important;
 }
-.featured-search.wide .form-group {
+.featured-search.wide #tab21624.active .form-group {
     height: auto!important;
     min-height:60px!important;
     animation: all .5s ease;
 }
 
-.cts-term-hierarchy.form-group.md-group.tpl-alternate.cts-term-filled label {
+#tab21624.active .cts-term-hierarchy.form-group.md-group.tpl-alternate.cts-term-filled label {
     display: none;
 }
-.featured-search.wide .form-group .select-wrapper.term-select{
+.featured-search.wide #tab21624.active .form-group .select-wrapper.term-select{
     position: relative!important;
 }
