@@ -3741,10 +3741,22 @@ button.preview-btn.button.buttons.button-2.preview {
 
 
 
+
+/*allign details to left*/
+.c27-footer-section .details-list li span {
+    left: 3px;
+    text-align: left;
+}
+
+
+
+/***********************new card price footer content style*/
 .price-newcard{
     font-size: 22px;
     color: #f36403;
 }
+
+
 .unit-newcard{}
 .delivery-newcard{}
 .nego-newcard{}
