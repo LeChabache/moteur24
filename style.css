@@ -3702,3 +3702,39 @@ button.preview-btn.button.buttons.button-2.preview {
 .i-nav ul li:hover {
     opacity: 1;
 }
+
+
+
+/*New cards desig*/
+/*1 - Lighten the overlay*/
+.lf-item .overlay {
+    z-index: 3;
+    opacity: .20;
+}
+/*2 hide details over image in desktop*/
+.listing-preview .lf-item-default .lf-item-info {
+    display: none;
+}
+/*3 display details on hever in desktop*/
+@media only screen and (min-width: 900px){
+.listing-preview:hover .lf-item-default .lf-item-info {
+    display: block;
+    transition: opacity 0.3s;
+    -webkit-transition: opacity 0.3s;
+    opacity: 1;
+}}
+/*4 displace price info to footer and style*/
+.c27-footer-section .details-list li span {
+    position: relative;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+.c27-footer-section ul.details-list {
+    display: inline-flex;
+}
+
+.details-list li {
+    display: inline-block;
+    align-items: stretch;
+}
