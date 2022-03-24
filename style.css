@@ -3738,3 +3738,13 @@ button.preview-btn.button.buttons.button-2.preview {
     display: inline-block;
     align-items: stretch;
 }
+
+
+
+.price-newcard{
+    font-size: 22px;
+    color: #f36403;
+}
+.unit-newcard{}
+.delivery-newcard{}
+.nego-newcard{}
