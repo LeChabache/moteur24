@@ -3751,7 +3751,7 @@ button.preview-btn.button.buttons.button-2.preview {
 
 
 /***********************new card price footer content style*/
-.price-newcard{
+span.price-newcard{
     font-size: 22px;
     color: #f36403;
 }
