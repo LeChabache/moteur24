@@ -774,7 +774,7 @@ span.host-namex {
     -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
     font-size: 17px;
-    color: var( --e-global-color-22f6831 );
+    color: #2d2f3b;
     margin-bottom: 8px;
     margin-top: 19px;
 }
@@ -3796,5 +3796,22 @@ span.nego-newcard{
 .lf-item-container .event-host {
     height: 54px;
 }
+
+@media only screen and (max-width: 1200px){
+/*Price in mobile*/
+span.price-newcard {
+    font-size: 15px!important;
+    color: #f36403;
+    margin-left: 55px;
+    font-weight: 500;
+}
+span.nego-newcard {
+    color: #ababab;
+    font-size: 15px!important;
+}
+.lf-item-container .event-host {
+    height: 54px;
+    margin-bottom: -1px;
+}}
 
 /* New explore tab like home*/
