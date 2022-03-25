@@ -3751,7 +3751,26 @@ button.preview-btn.button.buttons.button-2.preview {
 
 
 /***********************new card price footer content style*/
-span.price-newcard{
+span.price-newcard {
     font-size: 22px;
     color: #f36403;
+    margin-left: 5px;
+}
+/*hors line navigation*/
+/*static html, css,js cdn*/
+
+
+.c27-footer-section .details-list li span {
+    margin-top: 0;
+    overflow: visible;
+    text-align: center;
+    width: fit-content;
+    text-overflow: unset;
+}
+
+.c27-footer-section li {
+    width: fit-content!important;
+}
+.c27-footer-section .details-list li {
+    padding: 10px 4px;
 }
