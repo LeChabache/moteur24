@@ -3812,6 +3812,38 @@ span.nego-newcard {
 .lf-item-container .event-host {
     height: 54px;
     margin-bottom: -1px;
-}}
+}
+/*Hide top tab oly on search*/
+.mobile-tab-results div.explore-head{
+    display:none!important;
+}
+.mobile-tab-filters div.explore-head {
+    display: block!important;
+    background: #1e2029!important;
+}
+.explore-types.cts-carousel .item.active {
+    background: #f2f3f2;
+    border-radius: 8px;
+    height: 40px;
+}
+.explore-head .explore-types .item.active .type-info>h4 {
+    color: #242429;
+}
+
+/*Filter btn mobile*/
+.explore-head-top-filters a {
+    background: #e3e3e3;
+    height: 46px;
+    padding: 12px;
+    border-radius: 50px;
+    box-shadow: 0px 1px 4px #b7b7b7;
+}
+.mobile-explore-head-top .explore-head-top-filters a:active {
+    color: #f35a02;
+    box-shadow: 0px 1px 8px #6e6e6e;
+    background: #e9e9e9;
+}
+
+}
 
 /* New explore tab like home*/
