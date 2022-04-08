@@ -3812,4 +3812,10 @@ span.nego-newcard {
 .listing-preview .c27-footer-section {
     background: #db949400!important;
 }
+.lf-item-container {
+    box-shadow: 0 0 14px 1px #0000001f!important;
+}
+.lf-item-container:hover {
+    box-shadow: 0 0 14px 1px #00000061!important;
+}
 /* New explore tab like home*/
