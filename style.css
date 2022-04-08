@@ -3557,10 +3557,6 @@ div#addlisting-tab1 {
     background-image: linear-gradient(90deg, #F16720 0%, #F58907 100%)!important;
     transition: all 2s linear 1s;
 }
-.lf-item-container.listing-preview:hover .event-host {
-    outline: 2px solid #f58806;
-    transition: all 2s linear 1s;
-}
 
 .lf-item-container.listing-preview:hoverx .lf-item-info-cardx h3.listing-preview-title,
 .lf-item-container.listing-preview:active .lf-item-info-cardx h3.listing-preview-title {
@@ -3570,7 +3566,9 @@ div#addlisting-tab1 {
 .lf-item-container.listing-preview:active span.host-namex {
     color: white;
 }
-
+a#host-manex {
+    color: #959595;
+}
 .lf-item-container.listing-preview:hoverx .five .value,
 .lf-item-container.listing-preview:active .five .value {
     color: white!important;
@@ -3772,7 +3770,7 @@ span.price-newcard {
     width: fit-content!important;
 }
 .c27-footer-section .details-list li {
-    padding: 10px 4px;
+    padding: 7px 3px;
 }
 /*Delivery bard new card*/
 #delivery-card-badge i {
@@ -3782,13 +3780,10 @@ span.price-newcard {
     position: relative;
     top: 1px;
 }
-
-span.nego-newcard{
-    color: #ababab;
-    font-size: 16px;
-    position: relative;
-    top: 2px;
-    left: -3px;
+span.nego-newcard {
+    color: #959595;
+    font-size: 14px;
+    top: 2px!important;
 }
 .three {
     top: 0px;
@@ -3814,4 +3809,7 @@ span.nego-newcard {
     margin-bottom: -1px;
 }}
 
+.listing-preview .c27-footer-section {
+    background: #db949400!important;
+}
 /* New explore tab like home*/

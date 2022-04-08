@@ -150,7 +150,7 @@ foreach ( (array) $options['footer']['sections'] as $section ) {
                             </a>
                     </div>
                     <div class="five">
-                        <a style="color:#666974;" href="<?php echo esc_url( $listing->author->get_link() ) ?>">
+                        <a id="host-manex" href="<?php echo esc_url( $listing->author->get_link() ) ?>">
                             <span class="host-namex">
                                 <?php 
                                 
